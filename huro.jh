@@ -1,0 +1,116 @@
+entity GroupMessage{
+	dateCreated Instant
+    dateUpdated Instant
+}
+entity Message{
+	subject String
+    body String
+    dateCreated Instant
+    dateUpdated Instant
+}
+entity OrganizationProfile{
+	language Language
+}
+entity EntitySeekingFund{
+	name String
+    address String
+    telephoneNumber String
+    emailAddress String
+    dateCreated Instant
+    dateUpdated Instant
+}
+entity Vendor{
+	name String
+    address String
+    telephoneNumber String
+    emailAddress String
+    dateCreated Instant
+    dateUpdated Instant
+}
+entity Investor{
+	name String
+    address String
+    telephoneNumber String
+    emailAddress String
+    dateCreated Instant
+    dateUpdated Instant
+}
+entity Contact{
+	firstName String
+    lastName String
+    address String
+    telephoneNumber String
+    emailAddress String
+    dateCreated Instant
+    dateUpdated Instant
+}
+
+entity Intent{
+	name String
+    expectedDateOfCompletion Instant
+    fundingAmountDesired Long
+    status IntentStatus
+    dateCreated Instant
+    dateUpdated Instant
+}
+entity Compliance{
+	name String
+    dateCreated Instant
+    dateUpdated Instant
+}
+
+enum IntentStatus {
+    INQUIRY, NEGOTIATE, COMMIT, FUNDPROCESSING, DELIVERY, INSTALL, TRAIN, GOLIVE, CLOSED, CANCELLED, ABANDONED
+}
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	EntitySeekingFund{contact} to Contact,
+	Investor{contact} to Contact,
+    Vendor{contact} to Contact,
+    Country{region} to Region,
+    Region{entitySeekingFund} to EntitySeekingFund,
+    Region{investor} to Investor,
+    Region{vendor} to Vendor
+}
+relationship ManyToMany {
+	EntitySeekingFund{intent} to Intent{entitySeekingFund},
+    Investor{intent} to Intent{investor},
+    Vendor{intent} to Intent{vendor},
+    Compliance{region} to Region{compliance},
+    Compliance{country} to Country{compliance}
+}
+
+entity Region {
+	regionName String
+}
+
+entity Country {
+	countryName String
+}
+
+
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH, GERMAN, CHINESE
+}
+
+
+relationship OneToOne {
+	Location{country} to Country
+}
+
+
+
+
+// Set pagination options
+paginate JobHistory, Employee with infinite-scroll
+paginate Job with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
