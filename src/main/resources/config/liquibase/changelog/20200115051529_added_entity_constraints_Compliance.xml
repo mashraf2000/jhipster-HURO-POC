@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Compliance.
+    -->
+    <changeSet id="20200115051529-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="compliance_id"
+                                 baseTableName="compliance_region"
+                                 constraintName="fk_compliance_region_compliance_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="compliance"/>
+
+        <addForeignKeyConstraint baseColumnNames="region_id"
+                                 baseTableName="compliance_region"
+                                 constraintName="fk_compliance_region_region_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="region"/>
+        
+        <addForeignKeyConstraint baseColumnNames="compliance_id"
+                                 baseTableName="compliance_country"
+                                 constraintName="fk_compliance_country_compliance_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="compliance"/>
+
+        <addForeignKeyConstraint baseColumnNames="country_id"
+                                 baseTableName="compliance_country"
+                                 constraintName="fk_compliance_country_country_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="country"/>
+        
+    </changeSet>
+</databaseChangeLog>

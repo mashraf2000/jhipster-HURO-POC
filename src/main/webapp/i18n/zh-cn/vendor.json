@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "vendor": {
+      "home": {
+        "title": "Vendors",
+        "createLabel": "创建新 Vendor",
+        "createOrEditLabel": "创建或编辑 Vendor",
+        "notFound": "No Vendors found"
+      },
+      "created": "Vendor {{ param }} 创建成功",
+      "updated": "Vendor {{ param }} 更新成功",
+      "deleted": "Vendor {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Vendor {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Vendor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

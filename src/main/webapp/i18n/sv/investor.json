@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investors",
+        "createLabel": "Skapa en ny Investor",
+        "createOrEditLabel": "Skapa eller ändra en Investor",
+        "notFound": "No Investors found"
+      },
+      "created": "En ny Investor är skapad med id {{ param }}",
+      "updated": "En Investor är uppdaterad med id  {{ param }}",
+      "deleted": "En Investor är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Investor {{ id }}?"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

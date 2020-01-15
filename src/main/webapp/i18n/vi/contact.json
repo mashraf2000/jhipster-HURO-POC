@@ -1,0 +1,31 @@
+{
+  "huroPocApp": {
+    "contact": {
+      "home": {
+        "title": "Contacts",
+        "createLabel": "Thêm mới một Contact",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Contact",
+        "notFound": "No Contacts found"
+      },
+      "created": "Một Contact mới được tạo với định danh {{ param }}",
+      "updated": "Một Contact cập nhật với định danh {{ param }}",
+      "deleted": "Một Contact đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Contact {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

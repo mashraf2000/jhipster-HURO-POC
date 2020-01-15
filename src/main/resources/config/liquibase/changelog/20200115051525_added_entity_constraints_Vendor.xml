@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Vendor.
+    -->
+    <changeSet id="20200115051525-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="vendor_id"
+                                 baseTableName="vendor_intent"
+                                 constraintName="fk_vendor_intent_vendor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="vendor"/>
+
+        <addForeignKeyConstraint baseColumnNames="intent_id"
+                                 baseTableName="vendor_intent"
+                                 constraintName="fk_vendor_intent_intent_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="intent"/>
+        
+        <addForeignKeyConstraint baseColumnNames="region_id"
+                                 baseTableName="vendor"
+                                 constraintName="fk_vendor_region_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="region"/>
+
+    </changeSet>
+</databaseChangeLog>

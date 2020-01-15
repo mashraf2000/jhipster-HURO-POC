@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "vendor": {
+      "home": {
+        "title": "Vendors",
+        "createLabel": "Thêm mới một Vendor",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Vendor",
+        "notFound": "No Vendors found"
+      },
+      "created": "Một Vendor mới được tạo với định danh {{ param }}",
+      "updated": "Một Vendor cập nhật với định danh {{ param }}",
+      "deleted": "Một Vendor đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Vendor {{ id }}?"
+      },
+      "detail": {
+        "title": "Vendor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

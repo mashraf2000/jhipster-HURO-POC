@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "intent": {
+      "home": {
+        "title": "Intents",
+        "createLabel": "สร้าง Intent",
+        "createOrEditLabel": "สร้างหรือแก้ไข Intent",
+        "notFound": "No Intents found"
+      },
+      "created": "Intent ถูกสร้างด้วย {{ param }}",
+      "updated": "Intent ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Intent ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Intent {{ id }}?"
+      },
+      "detail": {
+        "title": "Intent"
+      },
+      "name": "Name",
+      "expectedDateOfCompletion": "Expected Date Of Completion",
+      "fundingAmountDesired": "Funding Amount Desired",
+      "status": "Status",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

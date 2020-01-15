@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investors",
+        "createLabel": "Créer un nouveau Investor",
+        "createOrEditLabel": "Créer ou éditer un Investor",
+        "notFound": "Aucun Investor trouvé"
+      },
+      "created": "Un nouveau Investor a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Investor avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Investor avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Investor {{ id }} ?"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

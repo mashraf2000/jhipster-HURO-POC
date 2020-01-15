@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investors",
+        "createLabel": "Pridať Investor",
+        "createOrEditLabel": "Pridať alebo upraviť Investor",
+        "notFound": "No Investors found"
+      },
+      "created": "Bol vytvorený potomok entity Investor s identifikátorom {{ param }}",
+      "updated": "Potomok entity Investor s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Investor s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Investor {{ id }}?"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

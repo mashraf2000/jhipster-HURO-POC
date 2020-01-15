@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "entitySeekingFund": {
+      "home": {
+        "title": "Entity Seeking Funds",
+        "createLabel": "Thêm mới một Entity Seeking Fund",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Entity Seeking Fund",
+        "notFound": "No Entity Seeking Funds found"
+      },
+      "created": "Một Entity Seeking Fund mới được tạo với định danh {{ param }}",
+      "updated": "Một Entity Seeking Fund cập nhật với định danh {{ param }}",
+      "deleted": "Một Entity Seeking Fund đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Entity Seeking Fund {{ id }}?"
+      },
+      "detail": {
+        "title": "Entity Seeking Fund"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "huroPocApp": {
+    "compliance": {
+      "home": {
+        "title": "Compliances",
+        "createLabel": "Skapa en ny Compliance",
+        "createOrEditLabel": "Skapa eller ändra en Compliance",
+        "notFound": "No Compliances found"
+      },
+      "created": "En ny Compliance är skapad med id {{ param }}",
+      "updated": "En Compliance är uppdaterad med id  {{ param }}",
+      "deleted": "En Compliance är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Compliance {{ id }}?"
+      },
+      "detail": {
+        "title": "Compliance"
+      },
+      "name": "Name",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "region": "Region",
+      "country": "Country"
+    }
+  }
+}

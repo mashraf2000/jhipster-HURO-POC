@@ -1,0 +1,54 @@
+{
+    "name": "Region",
+    "fields": [
+        {
+            "fieldName": "regionName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "entitySeekingFund",
+            "otherEntityRelationshipName": "region",
+            "relationshipName": "entitySeekingFund"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "investor",
+            "otherEntityRelationshipName": "region",
+            "relationshipName": "investor"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "vendor",
+            "otherEntityRelationshipName": "region",
+            "relationshipName": "vendor"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "country",
+            "otherEntityRelationshipName": "region",
+            "relationshipName": "country",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "compliance",
+            "otherEntityRelationshipName": "region",
+            "relationshipName": "compliance",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20200115051530",
+    "entityTableName": "region",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

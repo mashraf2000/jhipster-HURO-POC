@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "intent": {
+      "home": {
+        "title": "Intents",
+        "createLabel": "Vytvořit Intent",
+        "createOrEditLabel": "Vytvořit nebo upravit Intent",
+        "notFound": "No Intents found"
+      },
+      "created": "Byl vytvořen potomek entity Intent s identifikátorem {{ param }}",
+      "updated": "Potomek entity Intent s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Intent s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Intent {{ id }}?"
+      },
+      "detail": {
+        "title": "Intent"
+      },
+      "name": "Name",
+      "expectedDateOfCompletion": "Expected Date Of Completion",
+      "fundingAmountDesired": "Funding Amount Desired",
+      "status": "Status",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

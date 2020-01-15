@@ -1,0 +1,23 @@
+{
+  "huroPocApp": {
+    "groupMessage": {
+      "home": {
+        "title": "Group Messages",
+        "createLabel": "สร้าง Group Message",
+        "createOrEditLabel": "สร้างหรือแก้ไข Group Message",
+        "notFound": "No Group Messages found"
+      },
+      "created": "Group Message ถูกสร้างด้วย {{ param }}",
+      "updated": "Group Message ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Group Message ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Group Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Group Message"
+      },
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

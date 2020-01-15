@@ -1,0 +1,22 @@
+{
+  "huroPocApp": {
+    "organizationProfile": {
+      "home": {
+        "title": "Organization Profiles",
+        "createLabel": "สร้าง Organization Profile",
+        "createOrEditLabel": "สร้างหรือแก้ไข Organization Profile",
+        "notFound": "No Organization Profiles found"
+      },
+      "created": "Organization Profile ถูกสร้างด้วย {{ param }}",
+      "updated": "Organization Profile ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Organization Profile ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Organization Profile {{ id }}?"
+      },
+      "detail": {
+        "title": "Organization Profile"
+      },
+      "language": "Language"
+    }
+  }
+}

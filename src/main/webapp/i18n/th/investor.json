@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investors",
+        "createLabel": "สร้าง Investor",
+        "createOrEditLabel": "สร้างหรือแก้ไข Investor",
+        "notFound": "No Investors found"
+      },
+      "created": "Investor ถูกสร้างด้วย {{ param }}",
+      "updated": "Investor ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Investor ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Investor {{ id }}?"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

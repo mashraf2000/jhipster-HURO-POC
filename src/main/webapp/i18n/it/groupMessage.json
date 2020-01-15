@@ -1,0 +1,23 @@
+{
+  "huroPocApp": {
+    "groupMessage": {
+      "home": {
+        "title": "GroupMessages",
+        "createLabel": "Genera un nuovo Group Message",
+        "createOrEditLabel": "Genera o modifica un Group Message",
+        "notFound": "No Group Messages found"
+      },
+      "created": "&Egrave; stato generato un nuovo Group Message con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Group Message identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Group Message con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Group Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Group Message"
+      },
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

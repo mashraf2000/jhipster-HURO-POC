@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investors",
+        "createLabel": "创建新 Investor",
+        "createOrEditLabel": "创建或编辑 Investor",
+        "notFound": "No Investors found"
+      },
+      "created": "Investor {{ param }} 创建成功",
+      "updated": "Investor {{ param }} 更新成功",
+      "deleted": "Investor {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Investor {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

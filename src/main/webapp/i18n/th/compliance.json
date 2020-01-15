@@ -1,0 +1,26 @@
+{
+  "huroPocApp": {
+    "compliance": {
+      "home": {
+        "title": "Compliances",
+        "createLabel": "สร้าง Compliance",
+        "createOrEditLabel": "สร้างหรือแก้ไข Compliance",
+        "notFound": "No Compliances found"
+      },
+      "created": "Compliance ถูกสร้างด้วย {{ param }}",
+      "updated": "Compliance ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Compliance ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Compliance {{ id }}?"
+      },
+      "detail": {
+        "title": "Compliance"
+      },
+      "name": "Name",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "region": "Region",
+      "country": "Country"
+    }
+  }
+}

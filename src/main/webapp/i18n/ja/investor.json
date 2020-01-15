@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investors",
+        "createLabel": "Investor を追加",
+        "createOrEditLabel": "Investorを追加または編集",
+        "notFound": "No Investors found"
+      },
+      "created": "A new Investor is created with identifier {{ param }}",
+      "updated": "A Investor is updated with identifier {{ param }}",
+      "deleted": "A Investor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Investor {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

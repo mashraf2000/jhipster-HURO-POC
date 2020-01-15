@@ -1,0 +1,66 @@
+{
+    "name": "Intent",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "expectedDateOfCompletion",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "fundingAmountDesired",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "IntentStatus",
+            "fieldValues": "INQUIRY,NEGOTIATE,COMMIT,FUNDPROCESSING,DELIVERY,INSTALL,TRAIN,GOLIVE,CLOSED,CANCELLED,ABANDONED"
+        },
+        {
+            "fieldName": "dateCreated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "dateUpdated",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "entitySeekingFund",
+            "otherEntityRelationshipName": "intent",
+            "relationshipName": "entitySeekingFund",
+            "otherEntityField": "id",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "investor",
+            "otherEntityRelationshipName": "intent",
+            "relationshipName": "investor",
+            "otherEntityField": "id",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "vendor",
+            "otherEntityRelationshipName": "intent",
+            "relationshipName": "vendor",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20200115051528",
+    "entityTableName": "intent",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

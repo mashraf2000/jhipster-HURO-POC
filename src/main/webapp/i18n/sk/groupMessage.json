@@ -1,0 +1,23 @@
+{
+  "huroPocApp": {
+    "groupMessage": {
+      "home": {
+        "title": "Group Messages",
+        "createLabel": "Pridať Group Message",
+        "createOrEditLabel": "Pridať alebo upraviť Group Message",
+        "notFound": "No Group Messages found"
+      },
+      "created": "Bol vytvorený potomok entity Group Message s identifikátorom {{ param }}",
+      "updated": "Potomok entity Group Message s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Group Message s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Group Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Group Message"
+      },
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "huroPocApp": {
+    "groupMessage": {
+      "home": {
+        "title": "Group Messages",
+        "createLabel": "Skapa en ny Group Message",
+        "createOrEditLabel": "Skapa eller ändra en Group Message",
+        "notFound": "No Group Messages found"
+      },
+      "created": "En ny Group Message är skapad med id {{ param }}",
+      "updated": "En Group Message är uppdaterad med id  {{ param }}",
+      "deleted": "En Group Message är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Group Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Group Message"
+      },
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

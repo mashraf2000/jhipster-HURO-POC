@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "intent": {
+      "home": {
+        "title": "Intent",
+        "createLabel": "Dodaj Intent",
+        "createOrEditLabel": "Dodaj lub edytuj: Intent",
+        "notFound": "No Intents found"
+      },
+      "created": "Utworzono nowy obiekt typu Intent z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Intent z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Intent z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Intent {{ id }}?"
+      },
+      "detail": {
+        "title": "Intent"
+      },
+      "name": "Name",
+      "expectedDateOfCompletion": "Expected Date Of Completion",
+      "fundingAmountDesired": "Funding Amount Desired",
+      "status": "Status",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

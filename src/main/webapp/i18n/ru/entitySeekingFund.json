@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "entitySeekingFund": {
+      "home": {
+        "title": "Entity Seeking Funds",
+        "createLabel": "Создать новый Entity Seeking Fund",
+        "createOrEditLabel": "Создать или отредактировать Entity Seeking Fund",
+        "notFound": "No Entity Seeking Funds found"
+      },
+      "created": "Новый Entity Seeking Fund создан с идентификатором {{ param }}",
+      "updated": "Entity Seeking Fund обновлен с идентификатором {{ param }}",
+      "deleted": "Entity Seeking Fund удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Entity Seeking Fund {{ id }}?"
+      },
+      "detail": {
+        "title": "Entity Seeking Fund"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

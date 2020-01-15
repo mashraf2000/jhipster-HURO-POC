@@ -1,0 +1,31 @@
+{
+  "huroPocApp": {
+    "contact": {
+      "home": {
+        "title": "Contacts",
+        "createLabel": "Pridať Contact",
+        "createOrEditLabel": "Pridať alebo upraviť Contact",
+        "notFound": "No Contacts found"
+      },
+      "created": "Bol vytvorený potomok entity Contact s identifikátorom {{ param }}",
+      "updated": "Potomok entity Contact s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Contact s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Contact {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

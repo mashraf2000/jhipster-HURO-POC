@@ -1,0 +1,26 @@
+{
+  "huroPocApp": {
+    "compliance": {
+      "home": {
+        "title": "Compliances",
+        "createLabel": "Vytvořit Compliance",
+        "createOrEditLabel": "Vytvořit nebo upravit Compliance",
+        "notFound": "No Compliances found"
+      },
+      "created": "Byl vytvořen potomek entity Compliance s identifikátorem {{ param }}",
+      "updated": "Potomek entity Compliance s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Compliance s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Compliance {{ id }}?"
+      },
+      "detail": {
+        "title": "Compliance"
+      },
+      "name": "Name",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "region": "Region",
+      "country": "Country"
+    }
+  }
+}
