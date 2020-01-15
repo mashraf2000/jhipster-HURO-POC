@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "intent": {
+      "home": {
+        "title": "Intents",
+        "createLabel": "Thêm mới một Intent",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Intent",
+        "notFound": "No Intents found"
+      },
+      "created": "Một Intent mới được tạo với định danh {{ param }}",
+      "updated": "Một Intent cập nhật với định danh {{ param }}",
+      "deleted": "Một Intent đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Intent {{ id }}?"
+      },
+      "detail": {
+        "title": "Intent"
+      },
+      "name": "Name",
+      "expectedDateOfCompletion": "Expected Date Of Completion",
+      "fundingAmountDesired": "Funding Amount Desired",
+      "status": "Status",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

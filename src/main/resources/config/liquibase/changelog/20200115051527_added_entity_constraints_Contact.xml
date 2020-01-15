@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Contact.
+    -->
+    <changeSet id="20200115051527-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="entity_seeking_fund_id"
+                                 baseTableName="contact"
+                                 constraintName="fk_contact_entity_seeking_fund_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="entity_seeking_fund"/>
+
+        <addForeignKeyConstraint baseColumnNames="investor_id"
+                                 baseTableName="contact"
+                                 constraintName="fk_contact_investor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="investor"/>
+
+        <addForeignKeyConstraint baseColumnNames="vendor_id"
+                                 baseTableName="contact"
+                                 constraintName="fk_contact_vendor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="vendor"/>
+
+    </changeSet>
+</databaseChangeLog>

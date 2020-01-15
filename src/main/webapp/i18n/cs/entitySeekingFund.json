@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "entitySeekingFund": {
+      "home": {
+        "title": "Entity Seeking Funds",
+        "createLabel": "Vytvořit Entity Seeking Fund",
+        "createOrEditLabel": "Vytvořit nebo upravit Entity Seeking Fund",
+        "notFound": "No Entity Seeking Funds found"
+      },
+      "created": "Byl vytvořen potomek entity Entity Seeking Fund s identifikátorem {{ param }}",
+      "updated": "Potomek entity Entity Seeking Fund s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Entity Seeking Fund s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Entity Seeking Fund {{ id }}?"
+      },
+      "detail": {
+        "title": "Entity Seeking Fund"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

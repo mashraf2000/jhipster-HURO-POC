@@ -1,0 +1,62 @@
+{
+    "name": "EntitySeekingFund",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telephoneNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "emailAddress",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateCreated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "dateUpdated",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "contact",
+            "otherEntityRelationshipName": "entitySeekingFund",
+            "relationshipName": "contact"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "intent",
+            "otherEntityRelationshipName": "entitySeekingFund",
+            "relationshipName": "intent",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "region",
+            "otherEntityRelationshipName": "entitySeekingFund",
+            "relationshipName": "region",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200115051524",
+    "entityTableName": "entity_seeking_fund",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

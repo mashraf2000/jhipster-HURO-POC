@@ -1,0 +1,25 @@
+{
+  "huroPocApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Message を追加",
+        "createOrEditLabel": "Messageを追加または編集",
+        "notFound": "No Messages found"
+      },
+      "created": "A new Message is created with identifier {{ param }}",
+      "updated": "A Message is updated with identifier {{ param }}",
+      "deleted": "A Message is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Message {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "subject": "Subject",
+      "body": "Body",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "intent": {
+      "home": {
+        "title": "Intents",
+        "createLabel": "创建新 Intent",
+        "createOrEditLabel": "创建或编辑 Intent",
+        "notFound": "No Intents found"
+      },
+      "created": "Intent {{ param }} 创建成功",
+      "updated": "Intent {{ param }} 更新成功",
+      "deleted": "Intent {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Intent {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Intent"
+      },
+      "name": "Name",
+      "expectedDateOfCompletion": "Expected Date Of Completion",
+      "fundingAmountDesired": "Funding Amount Desired",
+      "status": "Status",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "intent": {
+      "home": {
+        "title": "Intents",
+        "createLabel": "Creeare o nouă entitate Intent",
+        "createOrEditLabel": "Creeare sau editare Intent",
+        "notFound": "No Intents found"
+      },
+      "created": "A fost creată o nouă entitate Intent cu identificatorul {{ param }}",
+      "updated": "Intent cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Intent cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Intent {{ id }}?"
+      },
+      "detail": {
+        "title": "Intent"
+      },
+      "name": "Name",
+      "expectedDateOfCompletion": "Expected Date Of Completion",
+      "fundingAmountDesired": "Funding Amount Desired",
+      "status": "Status",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

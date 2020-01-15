@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "vendor": {
+      "home": {
+        "title": "Vendors",
+        "createLabel": "Criar novo Vendor",
+        "createOrEditLabel": "Criar ou editar Vendor",
+        "notFound": "Nenhum Vendor encontrado"
+      },
+      "created": "Um novo Vendor foi criado com o identificador {{ param }}",
+      "updated": "Um Vendor foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Vendor foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Vendor {{ id }}?"
+      },
+      "detail": {
+        "title": "Vendor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "huroPocApp": {
+    "IntentStatus": {
+      "null": "",
+      "INQUIRY": "INQUIRY",
+      "NEGOTIATE": "NEGOTIATE",
+      "COMMIT": "COMMIT",
+      "FUNDPROCESSING": "FUNDPROCESSING",
+      "DELIVERY": "DELIVERY",
+      "INSTALL": "INSTALL",
+      "TRAIN": "TRAIN",
+      "GOLIVE": "GOLIVE",
+      "CLOSED": "CLOSED",
+      "CANCELLED": "CANCELLED",
+      "ABANDONED": "ABANDONED"
+    }
+  }
+}

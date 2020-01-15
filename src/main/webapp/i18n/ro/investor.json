@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investors",
+        "createLabel": "Creeare o nouă entitate Investor",
+        "createOrEditLabel": "Creeare sau editare Investor",
+        "notFound": "No Investors found"
+      },
+      "created": "A fost creată o nouă entitate Investor cu identificatorul {{ param }}",
+      "updated": "Investor cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Investor cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Investor {{ id }}?"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

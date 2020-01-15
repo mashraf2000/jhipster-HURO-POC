@@ -1,0 +1,22 @@
+{
+  "huroPocApp": {
+    "organizationProfile": {
+      "home": {
+        "title": "Organization Profiles",
+        "createLabel": "创建新 Organization Profile",
+        "createOrEditLabel": "创建或编辑 Organization Profile",
+        "notFound": "No Organization Profiles found"
+      },
+      "created": "Organization Profile {{ param }} 创建成功",
+      "updated": "Organization Profile {{ param }} 更新成功",
+      "deleted": "Organization Profile {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Organization Profile {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Organization Profile"
+      },
+      "language": "Language"
+    }
+  }
+}

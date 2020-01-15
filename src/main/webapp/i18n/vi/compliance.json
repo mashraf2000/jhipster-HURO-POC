@@ -1,0 +1,26 @@
+{
+  "huroPocApp": {
+    "compliance": {
+      "home": {
+        "title": "Compliances",
+        "createLabel": "Thêm mới một Compliance",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Compliance",
+        "notFound": "No Compliances found"
+      },
+      "created": "Một Compliance mới được tạo với định danh {{ param }}",
+      "updated": "Một Compliance cập nhật với định danh {{ param }}",
+      "deleted": "Một Compliance đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Compliance {{ id }}?"
+      },
+      "detail": {
+        "title": "Compliance"
+      },
+      "name": "Name",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "region": "Region",
+      "country": "Country"
+    }
+  }
+}

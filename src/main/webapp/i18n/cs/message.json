@@ -1,0 +1,25 @@
+{
+  "huroPocApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Vytvořit Message",
+        "createOrEditLabel": "Vytvořit nebo upravit Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Byl vytvořen potomek entity Message s identifikátorem {{ param }}",
+      "updated": "Potomek entity Message s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Message s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "subject": "Subject",
+      "body": "Body",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

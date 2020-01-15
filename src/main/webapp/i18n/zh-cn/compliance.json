@@ -1,0 +1,26 @@
+{
+  "huroPocApp": {
+    "compliance": {
+      "home": {
+        "title": "Compliances",
+        "createLabel": "创建新 Compliance",
+        "createOrEditLabel": "创建或编辑 Compliance",
+        "notFound": "No Compliances found"
+      },
+      "created": "Compliance {{ param }} 创建成功",
+      "updated": "Compliance {{ param }} 更新成功",
+      "deleted": "Compliance {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Compliance {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Compliance"
+      },
+      "name": "Name",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "region": "Region",
+      "country": "Country"
+    }
+  }
+}

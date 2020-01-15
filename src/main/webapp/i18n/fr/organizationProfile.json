@@ -1,0 +1,22 @@
+{
+  "huroPocApp": {
+    "organizationProfile": {
+      "home": {
+        "title": "OrganizationProfiles",
+        "createLabel": "Créer un nouveau Organization Profile",
+        "createOrEditLabel": "Créer ou éditer un Organization Profile",
+        "notFound": "Aucun Organization Profile trouvé"
+      },
+      "created": "Un nouveau Organization Profile a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Organization Profile avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Organization Profile avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Organization Profile {{ id }} ?"
+      },
+      "detail": {
+        "title": "Organization Profile"
+      },
+      "language": "Language"
+    }
+  }
+}

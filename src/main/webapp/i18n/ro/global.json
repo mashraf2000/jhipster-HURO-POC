@@ -10,6 +10,17 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
+        "groupMessage": "Group Message",
+        "message": "Message",
+        "organizationProfile": "Organization Profile",
+        "entitySeekingFund": "Entity Seeking Fund",
+        "vendor": "Vendor",
+        "investor": "Investor",
+        "contact": "Contact",
+        "intent": "Intent",
+        "compliance": "Compliance",
+        "region": "Region",
+        "country": "Country",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

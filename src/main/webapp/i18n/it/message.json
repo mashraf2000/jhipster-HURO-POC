@@ -1,0 +1,25 @@
+{
+  "huroPocApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Genera un nuovo Message",
+        "createOrEditLabel": "Genera o modifica un Message",
+        "notFound": "No Messages found"
+      },
+      "created": "&Egrave; stato generato un nuovo Message con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Message identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Message con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "subject": "Subject",
+      "body": "Body",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

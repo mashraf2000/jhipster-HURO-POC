@@ -1,0 +1,31 @@
+{
+  "huroPocApp": {
+    "contact": {
+      "home": {
+        "title": "Contacts",
+        "createLabel": "Skapa en ny Contact",
+        "createOrEditLabel": "Skapa eller ändra en Contact",
+        "notFound": "No Contacts found"
+      },
+      "created": "En ny Contact är skapad med id {{ param }}",
+      "updated": "En Contact är uppdaterad med id  {{ param }}",
+      "deleted": "En Contact är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Contact {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

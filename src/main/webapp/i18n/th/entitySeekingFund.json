@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "entitySeekingFund": {
+      "home": {
+        "title": "Entity Seeking Funds",
+        "createLabel": "สร้าง Entity Seeking Fund",
+        "createOrEditLabel": "สร้างหรือแก้ไข Entity Seeking Fund",
+        "notFound": "No Entity Seeking Funds found"
+      },
+      "created": "Entity Seeking Fund ถูกสร้างด้วย {{ param }}",
+      "updated": "Entity Seeking Fund ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Entity Seeking Fund ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Entity Seeking Fund {{ id }}?"
+      },
+      "detail": {
+        "title": "Entity Seeking Fund"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

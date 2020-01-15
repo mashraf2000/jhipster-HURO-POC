@@ -1,0 +1,23 @@
+{
+  "huroPocApp": {
+    "groupMessage": {
+      "home": {
+        "title": "GroupMessages",
+        "createLabel": "Group Message を追加",
+        "createOrEditLabel": "Group Messageを追加または編集",
+        "notFound": "No Group Messages found"
+      },
+      "created": "A new Group Message is created with identifier {{ param }}",
+      "updated": "A Group Message is updated with identifier {{ param }}",
+      "deleted": "A Group Message is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Group Message {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Group Message"
+      },
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

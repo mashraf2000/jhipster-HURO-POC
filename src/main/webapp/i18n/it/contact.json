@@ -1,0 +1,31 @@
+{
+  "huroPocApp": {
+    "contact": {
+      "home": {
+        "title": "Contacts",
+        "createLabel": "Genera un nuovo Contact",
+        "createOrEditLabel": "Genera o modifica un Contact",
+        "notFound": "No Contacts found"
+      },
+      "created": "&Egrave; stato generato un nuovo Contact con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Contact identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Contact con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Contact {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "entitySeekingFund": "Entity Seeking Fund",
+      "investor": "Investor",
+      "vendor": "Vendor"
+    }
+  }
+}

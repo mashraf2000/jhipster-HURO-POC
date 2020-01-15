@@ -1,0 +1,23 @@
+{
+  "huroPocApp": {
+    "groupMessage": {
+      "home": {
+        "title": "Group Messages",
+        "createLabel": "创建新 Group Message",
+        "createOrEditLabel": "创建或编辑 Group Message",
+        "notFound": "No Group Messages found"
+      },
+      "created": "Group Message {{ param }} 创建成功",
+      "updated": "Group Message {{ param }} 更新成功",
+      "deleted": "Group Message {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Group Message {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Group Message"
+      },
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

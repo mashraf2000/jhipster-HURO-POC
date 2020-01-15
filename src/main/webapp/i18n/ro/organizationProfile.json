@@ -1,0 +1,22 @@
+{
+  "huroPocApp": {
+    "organizationProfile": {
+      "home": {
+        "title": "Organization Profiles",
+        "createLabel": "Creeare o nouă entitate Organization Profile",
+        "createOrEditLabel": "Creeare sau editare Organization Profile",
+        "notFound": "No Organization Profiles found"
+      },
+      "created": "A fost creată o nouă entitate Organization Profile cu identificatorul {{ param }}",
+      "updated": "Organization Profile cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Organization Profile cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Organization Profile {{ id }}?"
+      },
+      "detail": {
+        "title": "Organization Profile"
+      },
+      "language": "Language"
+    }
+  }
+}

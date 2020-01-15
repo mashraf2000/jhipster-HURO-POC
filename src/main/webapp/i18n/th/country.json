@@ -1,0 +1,24 @@
+{
+  "huroPocApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "สร้าง Country",
+        "createOrEditLabel": "สร้างหรือแก้ไข Country",
+        "notFound": "No Countries found"
+      },
+      "created": "Country ถูกสร้างด้วย {{ param }}",
+      "updated": "Country ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Country ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name",
+      "region": "Region",
+      "compliance": "Compliance"
+    }
+  }
+}

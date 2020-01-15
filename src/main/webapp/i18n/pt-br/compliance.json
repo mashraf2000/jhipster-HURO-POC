@@ -1,0 +1,26 @@
+{
+  "huroPocApp": {
+    "compliance": {
+      "home": {
+        "title": "Compliances",
+        "createLabel": "Criar novo Compliance",
+        "createOrEditLabel": "Criar ou editar Compliance",
+        "notFound": "Nenhum Compliance encontrado"
+      },
+      "created": "Um novo Compliance foi criado com o identificador {{ param }}",
+      "updated": "Um Compliance foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Compliance foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Compliance {{ id }}?"
+      },
+      "detail": {
+        "title": "Compliance"
+      },
+      "name": "Name",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "region": "Region",
+      "country": "Country"
+    }
+  }
+}

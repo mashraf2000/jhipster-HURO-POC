@@ -1,0 +1,23 @@
+{
+  "huroPocApp": {
+    "groupMessage": {
+      "home": {
+        "title": "Group Messages",
+        "createLabel": "Thêm mới một Group Message",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Group Message",
+        "notFound": "No Group Messages found"
+      },
+      "created": "Một Group Message mới được tạo với định danh {{ param }}",
+      "updated": "Một Group Message cập nhật với định danh {{ param }}",
+      "deleted": "Một Group Message đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Group Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Group Message"
+      },
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated"
+    }
+  }
+}

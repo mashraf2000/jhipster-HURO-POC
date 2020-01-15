@@ -1,0 +1,21 @@
+{
+    "name": "OrganizationProfile",
+    "fields": [
+        {
+            "fieldName": "language",
+            "fieldType": "Language",
+            "fieldValues": "FRENCH,ENGLISH,SPANISH,GERMAN,CHINESE"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200115051523",
+    "entityTableName": "organization_profile",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

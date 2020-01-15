@@ -1,0 +1,30 @@
+{
+  "huroPocApp": {
+    "investor": {
+      "home": {
+        "title": "Investor",
+        "createLabel": "Dodaj Investor",
+        "createOrEditLabel": "Dodaj lub edytuj: Investor",
+        "notFound": "No Investors found"
+      },
+      "created": "Utworzono nowy obiekt typu Investor z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Investor z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Investor z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Investor {{ id }}?"
+      },
+      "detail": {
+        "title": "Investor"
+      },
+      "name": "Name",
+      "address": "Address",
+      "telephoneNumber": "Telephone Number",
+      "emailAddress": "Email Address",
+      "dateCreated": "Date Created",
+      "dateUpdated": "Date Updated",
+      "contact": "Contact",
+      "intent": "Intent",
+      "region": "Region"
+    }
+  }
+}

@@ -7,6 +7,17 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "エンティティ",
+        "groupMessage": "Group Message",
+        "message": "Message",
+        "organizationProfile": "Organization Profile",
+        "entitySeekingFund": "Entity Seeking Fund",
+        "vendor": "Vendor",
+        "investor": "Investor",
+        "contact": "Contact",
+        "intent": "Intent",
+        "compliance": "Compliance",
+        "region": "Region",
+        "country": "Country",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

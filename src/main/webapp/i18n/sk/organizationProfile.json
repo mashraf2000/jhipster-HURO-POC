@@ -1,0 +1,22 @@
+{
+  "huroPocApp": {
+    "organizationProfile": {
+      "home": {
+        "title": "Organization Profiles",
+        "createLabel": "Pridať Organization Profile",
+        "createOrEditLabel": "Pridať alebo upraviť Organization Profile",
+        "notFound": "No Organization Profiles found"
+      },
+      "created": "Bol vytvorený potomok entity Organization Profile s identifikátorom {{ param }}",
+      "updated": "Potomok entity Organization Profile s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Organization Profile s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Organization Profile {{ id }}?"
+      },
+      "detail": {
+        "title": "Organization Profile"
+      },
+      "language": "Language"
+    }
+  }
+}
